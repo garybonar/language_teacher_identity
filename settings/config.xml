@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <config version="3.0" htmlParse="false">
+
+     <!-- title of the study -->
+     <item id="studyTitle">Language Teacher Identity Project</item>
+
+     <!-- text-align property(left|right) -->
+     <item id="textAlign">left</item>
+
+     <!-- shuffle cards (true|false) (4) -->
+     <item id="shuffleCards">true</item>
+
+     <!-- access code required (true|false) (5) -->
+     <item id="loginrequired">false</item>
+     <item id="clearCachePassword">cleareqmobilecache</item>
+     <!-- login with common password (leave blank if not required) -->
+     <item id="loginPassword"></item>
+    <item id="partNameRequired">true</item>
+      <!-- Use login script -->
+     <item id="useLogInScript">false</item>
+      <!-- URL to individual login script(leave blank if not required) -->
+     <item id="loginUrl"></item>
+     <!-- request mode (post|get) -->
+     <item id="loginUrlMethod"></item>
+
+     <item id="setConstantCardHeight">false</item>
+     <item id="constantCardHeight">150</item>
+     <item id="setConstantCardWidth">false</item>
+     <item id="constantCardWidth">200</item>
+     <!-- activate/deactivate optional steps (true|false) -->
+     <item id="showStep3">true</item>
+     <item id="showStep4">true</item>
+     <item id="showStep5">true</item>
+
+     <!-- HtmlQ only: disable the in-window back button -->
+     <item id="disableBackButton">true</item>
+
+     <!-- define form elements for step5; only displayed if showStep5 is true (delete tags if not required) -->
+     <!-- add label: <label>[STRING]</label> -->
+     <!-- add note: <note>[STRING]</note> -->
+     <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
+     <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
+     <item id="form">
+        <label>Your name</label>
+        <note>What is your full name?</note>
+        <input type="text" required="true" maxlength="100000" ></input>
+
+        <label>Languages</label>
+        <note>Which languages do you teach (or will teach in the future)?</note>
+        <input type="text" required="true" maxlength="100000" ></input>
+
+        <label>Consent form</label>
+        <note>CONSENT FORM Project ID: 24899 Project title:  Language Teacher Identity Chief Investigators: Dr Ruth Fielding and Dr Gary Bonar  I have been asked to take part in the Monash University research project specified above. I have read and understood the Explanatory Statement and I hereby consent to participate in this project.</note>
+        <input type="radio" required="true">Agree;Disagree</input>
+
+     </item>
+
+     <!-- URL for data transmission via POST/GET (leave blank if not required) -->
+     <item id="submitUrl">exe.php?do=save</item>
+  
+     <!-- request mode (post|get|firebase) -->
+     <item id="submitUrlMethod">firebase</item>
+  
+     <!-- data transmission via email, user must have an e-mail programm like Outlook (leave blank if not required) -->
+     <item id="submitMail">yourdomain.com</item>
+   </config>

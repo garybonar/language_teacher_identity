@@ -56,7 +56,7 @@ Project title:  Language Teacher Identity{br}{br}Chief Investigators: Dr Ruth Fi
 
         <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
         <item id="step3Head">Step 3 of 5</item>
-        <item id="step3Text">Now you have placed all cards on the score sheet. Please go over your distribution once more and swap card positions cards if you need to fine-tune the arrangement.</item>
+        <item id="step3Text">Now you have placed all cards on the score sheet. Please go over your distribution once more and swap card positions cards if you need to fine-tune the arrangement. Click CONTINUE when finished.</item>
         <item id="step3CondOfInstruc">As you read the statements, please respond to them from the perspective of:  {b}When I think of being a language teacher, I believe...{/b}</item>
 
         <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->

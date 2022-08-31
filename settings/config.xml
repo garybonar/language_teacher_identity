@@ -75,7 +75,7 @@
         <input type="radio" required="true">Very high;High;Medium;Low;Very low</input>
 
         <label>Knowledge of culture linked to target language</label>
-        <note>How would you rate your knowledge of culture linked to your target language?</note>
+        <note>How would you rate your knowledge of culture(s) linked to your target language?</note>
         <input type="radio" required="true">Very high;High;Medium;Low;Very low</input>
 
      </item>

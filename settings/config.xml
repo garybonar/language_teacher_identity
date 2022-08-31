@@ -3,7 +3,7 @@
    <config version="3.0" htmlParse="false">
 
      <!-- title of the study -->
-     <item id="studyTitle">Language Teacher Identity Project</item>
+     <item id="studyTitle">Language Teacher Identity 2022</item>
 
      <!-- text-align property(left|right) -->
      <item id="textAlign">left</item>
@@ -42,17 +42,41 @@
      <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
      <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
      <item id="form">
-        <label>Your name</label>
+        <label>Name</label>
         <note>What is your full name?</note>
+        <input type="text" required="true" maxlength="1000" ></input>
+
+        <label>L1</label>
+        <note>What is your first language(s)?</note>
         <input type="text" required="true" maxlength="100000" ></input>
 
-        <label>Languages</label>
-        <note>Which languages do you teach (or will teach in the future)?</note>
+        <label>TL</label>
+        <note>Which language(s) will you teach/are you teaching?</note>
         <input type="text" required="true" maxlength="100000" ></input>
 
-        <label>Consent form</label>
-        <note>CONSENT FORM Project ID: 24899 Project title:  Language Teacher Identity Chief Investigators: Dr Ruth Fielding and Dr Gary Bonar  I have been asked to take part in the Monash University research project specified above. I have read and understood the Explanatory Statement and I hereby consent to participate in this project.</note>
-        <input type="radio" required="true">Agree;Disagree</input>
+        <label>Speaking in the target language</label>
+        <note>How would you rate your proficiency in speaking in the TL?</note>
+        <input type="radio" required="true">Very high;High;Medium;Low;Very low</input>
+
+        <label>Listening in the target language</label>
+        <note>How would you rate your proficiency in listening in the TL?</note>
+        <input type="radio" required="true">Very high;High;Medium;Low;Very low</input>
+
+        <label>Reading in the target language.</label>
+        <note>How would you rate your proficiency in reading in the TL?</note>
+        <input type="radio" required="true">Very high;High;Medium;Low;Very low</input>
+
+        <label>Writing in the target language.</label>
+        <note>How would you rate your proficiency in writing in the TL?</note>
+        <input type="radio" required="true">Very high;High;Medium;Low;Very low</input>
+
+        <label>Knowledge of the target language grammar.</label>
+        <note>How would you rate your knowledge of the TL grammar?</note>
+        <input type="radio" required="true">Very high;High;Medium;Low;Very low</input>
+
+        <label>Knowledge of culture linked to target language</label>
+        <note>How would you rate your knowledge of culture linked to your target language?</note>
+        <input type="radio" required="true">Very high;High;Medium;Low;Very low</input>
 
      </item>
 

@@ -27,7 +27,7 @@
 
         <!-- welcome screen (leave blank to skip screen) -->
         <item id="welcomeHead">Welcome!</item>
-        <item id="welcomeText">Hello and thank you for agreeing to take part in this study about language teacher identity. It may take up to 30 minutes to complete, so please start when you can focus for that period of time.{br}{br}{b}** Important Information **{/b}{br}For this survey you will need as much screen space as possible!{br}{br}If necessary, please {b}MAXIMIZE{/b} the size of your browser window, {b}{i}reload{/i}{/b} this web page, and click on the "Continue" button to start the survey.</item>
+        <item id="welcomeText">Hello and thank you for agreeing to take part in this study about (pre-service) language teacher identity. It may take up to 30 minutes to complete, so please start when you can focus for that period of time.{br}{br}{b}** Important Information **{/b}{br}For this survey you will need as much screen space as possible!{br}{br}If necessary, please {b}MAXIMIZE{/b} the size of your browser window, {b}{i}reload{/i}{/b} this web page, and click on the "Continue" button to start the survey.</item>
 
         <!-- user login, only displayed if access is restricted (see config-file) -->
         <item id="loginHead">Access Code</item>
@@ -40,7 +40,7 @@
 
         <!-- introduction (leave blank to skip popup) -->
         <item id="introHead">Introduction</item>
-        <item id="introText">This study is about language teacher identity.{br}{br}CONSENT FORM{br}{br}Project ID: 24899{br}{br}
+        <item id="introText">This study is about language teacher identity.{br}{br}CONSENT FORM{br}{br}Project ID: 24899 & 32045{br}{br}
 Project title:  Language Teacher Identity{br}{br}Chief Investigators: Dr Ruth Fielding and Dr Gary Bonar{br}{br}I have been asked to take part in the Monash University research project specified above. By continuing I acknowledge that I have read and understood the Explanatory Statement and I hereby consent to participate in this project.</item>
 
         <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
